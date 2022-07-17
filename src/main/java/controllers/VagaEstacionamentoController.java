@@ -26,7 +26,7 @@ public class VagaEstacionamentoController {
 
     @GetMapping("/vaga/{id}")
     public VagaEstacionamento buscarVagaPorId(@PathVariable UUID id){
-        return vagaEstacionamentoRepository.getReferenceById(id);
+        return vagaEstacionamentoRepository.findById(id).get();
     }
 
     @PostMapping("/vaga")
