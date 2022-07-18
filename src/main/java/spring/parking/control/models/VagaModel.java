@@ -1,4 +1,4 @@
-package models;
+package spring.parking.control.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,7 +14,7 @@ import java.util.UUID;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class VagaEstacionamento {
+public class VagaModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
