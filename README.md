@@ -2,19 +2,34 @@
 # *API Parking Control*
 
 <h3 align="center"> 
-  API para controle de vagas de estacionamento de veiculos.
-    Feito em Java com banco Postres e todo validação de campos.
+  Esse projeto é uma API para controle de vagas de veículo, voltada para edifícios.
 </h3>
 
-### Funiconalidades do projeto!
+### *Funcionalidades do projeto!*
 
-- [x] Limite de cadastro de veiculos, por pessoa, andar, local.
-- [x] Consulta de veiculos e por vagas.
-- [x] Exclusao de veiculos de vagas, (apenas sob permissão).
+- [x] **Limite de cadastro de veículo por:**
+- Dono do veículo.
+- Número de Apartamento.
 
 
-<h4 align="center"> 
-	🚧  Projeto Status: Em construção...  🚧
-</h4>
+- [x] **Consulta de vagas e por:**
+- Código da vaga.
+- Placa do veículo.
+- Dono do veículo.
 
+
+- [x] **Exclusão de veículos das vagas**, contempla os mesmo atributos da consulta de vagas,
+porém para excluir é necessário confirmação e permissão.
+
+
+### *Features*
+
+> - Projeto contará com banco de dados Postegres.
+> - Utilizará Docker container.
+> - Validaçõese de campos com *@BeanValidation.*
+> - Documentação em *Swagger open API.*
+
+  <h4 align="center">
+  🚧 Status do projeto: Em construção...  🚧
+  </h4>
 
