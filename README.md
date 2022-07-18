@@ -1,5 +1,5 @@
 
-# *API Parking Control*
+# *Parking Control API*
 
 <h3 align="center"> 
   Esse projeto é uma API para controle de vagas de veículo, voltada para edifícios.
@@ -12,14 +12,14 @@
 - Número de Apartamento.
 
 
-- [x] **Consulta de vagas e por:**
+- [x] **Consultas e atualizações de vagas por:**
 - Código da vaga.
 - Placa do veículo.
 - Dono do veículo.
 
 
-- [x] **Exclusão de veículos das vagas**, contempla os mesmo atributos da consulta de vagas,
-porém para excluir é necessário confirmação e permissão.
+- [x] **Exclusão de veículos das vagas**, contempla os mesmo atributos da consulta e atualizações de vagas,
+porém para excluir primeiramente é necessário confirmação e permissão.
 
 
 ### *Features*
