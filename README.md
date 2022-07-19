@@ -1,4 +1,4 @@
-![DashProjeto](https://user-images.githubusercontent.com/79847279/179638969-4ac1de53-8be0-405c-aecb-365cfdfda1a2.png)
+![DashProjeto](https://user-images.githubusercontent.com/79847279/179651970-28d87256-6228-47c1-857d-ecd498b6dac6.png)
 <h2 align="center">
     <i>
  -- Parking Control API --
@@ -7,31 +7,37 @@
 
 
 <h3 align="center"> 
-  Esse projeto é uma API para controle de vagas de veículo, voltada para edifícios.
+  Este projeto é uma API Rest com o propósito principal de gerenciar as vagas de veículos em edifícios comerciais, condominios e apartamentos residenciais.
 </h3>
 
-### *Funcionalidades do projeto!*
+### *Funcionalidades do projeto - versão 1.0*
 
-- [x] **Limite de cadastro de veículo por:**
-- Dono do veículo.
+- [x] **Limite de cadastros de veículos por:**
+- CPF do proprietário do veículo.
 - Número de Apartamento.
 
 
-- [x] **Consultas e atualizações de vagas por:**
-- Código da vaga.
+- [x] **Consultas e alterações de veículos nas vagas por:**
+- Código **id** da vaga.
 - Placa do veículo.
-- Dono do veículo.
+- CPF do proprietário do veículo.
 
 
-- [x] **Exclusão de veículos das vagas**, contempla os mesmo atributos das consultas e atualizações de vagas,
-porém para excluir primeiramente é necessário confirmação e permissão.
+- [x] **Exclusão de veículos das vagas por:**
+- Código **id** da vaga.
+- Placa do veículo.
+- CPF do proprietário do veículo.
+
+    **Observação:** *Para apagar um veículo da vaga, primeiramente é necessário a confirmação e permissão.*
+
 
 
 ### *Features*
 
-> - Projeto contará com banco de dados Postegres.
-> - Utilizará Docker container.
-> - Validaçõese de campos com *@BeanValidation.*
+> - API Rest em *Java Spring*.
+> - Projeto contará com banco de dados *Postegres*.
+> - Utilizará *Docker container*.
+> - Validaçõese de campos com *@BeanValidations.*
 > - Documentação em *Swagger open API.*
 
   <h4 align="center">
